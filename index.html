@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="ZozoQueen8000's home pagee">
+<meta name="author" content="zozoqueen8000">
+<meta name="generator" content="">
+
+<title>Welcome! · ZozoQueen8000's home pagee</title>
+
+<link rel="canonical" href="https://zozoqueen8000.github.io/">
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/4.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/4.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/4.0/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+<meta name="msapplication-config" content="/docs/4.0/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@getbootstrap">
+<meta name="twitter:creator" content="@getbootstrap">
+<meta name="twitter:title" content="Introduction">
+<meta name="twitter:description" content="Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.">
+<meta name="twitter:image" content="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-social-logo.png">
+
+<!-- Facebook -->
+<meta property="og:url" content="https://getbootstrap.com/docs/4.0/getting-started/introduction/">
+<meta property="og:title" content="Introduction">
+<meta property="og:description" content="Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="http://getbootstrap.com/docs/4.0/assets/brand/bootstrap-social.png">
+<meta property="og:image:secure_url" content="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-social.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Cherry+Swash">
+<style>
+body {
+  background-color: #28DAD4;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+.waves, .mounts {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.waves div, .mounts div {
+  position: absolute;
+  width: 100%;
+}
+
+.clouds {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 77px;
+  height: 151px;
+  background: url(https://greghub.github.io/coloron/public/svg/clouds.svg) repeat-x;
+  background-position-x: 170px;
+}
+
+.top_wave {
+  background: url(https://greghub.github.io/coloron/public/svg/top_wave.png) repeat-x 0 -1px;
+  height: 35px;
+  bottom: 0;
+  z-index: 10001;
+}
+
+.wave1 {
+  background: url(https://greghub.github.io/coloron/public/svg/wave1.svg) repeat-x;
+  height: 150px;
+  bottom: 0;
+  z-index: 23;
+}
+
+.wave2 {
+  background: url(https://greghub.github.io/coloron/public/svg/wave2.svg) repeat-x;
+  height: 180px;
+  bottom: 30px;
+  z-index: 22;
+}
+
+.wave3 {
+  background: url(https://greghub.github.io/coloron/public/svg/wave3.svg) repeat-x;
+  height: 180px;
+  bottom: 90px;
+  z-index: 21;
+}
+
+.wave4 {
+  background: url(https://greghub.github.io/coloron/public/svg/wave4.svg) repeat-x;
+  height: 180px;
+  bottom: 120px;
+  z-index: 20;
+}
+
+.mount1 {
+  background: url(https://greghub.github.io/coloron/public/svg/mount1.svg) repeat-x;
+  height: 150px;
+  bottom: 280px;
+  z-index: 11;
+}
+
+.mount2 {
+  background: url(https://greghub.github.io/coloron/public/svg/mount2.svg) repeat-x;
+  height: 150px;
+  bottom: 290px;
+  z-index: 10;
+}
+
+.noise {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1010;
+  background: url(https://greghub.github.io/coloron/public/svg/noise.png);
+}
+
+.glow {
+  position: absolute;
+  left: -350px;
+  top: -350px;
+  width: 800px;
+  height: 800px;
+  background-color: rgba(81, 237, 200, 0.34);
+  border-radius: 50%;
+  box-shadow: 0 0 100px 100px rgba(81, 237, 200, 0.34);
+  z-index: 1010;
+}
+
+.sun {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 1px;
+  height: 1px;
+  background-color: #ffe345;
+  border-radius: 50%;
+  box-shadow: 0 0 32px 32px #ffe345, 0 0 150px 150px rgba(103, 244, 210, 0.4);
+}
+
+.small-glow {
+  z-index: 99;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.34);
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.34);
+}
+
+.small-glow.yellow {
+  background-color: rgba(255, 227, 69, 0.34);
+  box-shadow: 0 0 4px 4px rgba(255, 227, 69, 0.34);
+}
+
+@media screen and (max-height: 480px) {
+  .glow {
+    width: 240px;
+    height: 240px;
+    left: -90px;
+    top: -90px;
+  }
+
+  .sun {
+    box-shadow: 0 0 20px 20px #ffe345, 0 0 150px 150px rgba(103, 244, 210, 0.4);
+  }
+
+  .small-glow {
+    transform: scale(0.5);
+  }
+
+  .waves div {
+    background-size: auto 100%;
+  }
+
+  .wave1, .wave2, .wave3, .wave4 {
+    height: 80px;
+  }
+
+  .top_wave {
+    height: 20px;
+  }
+
+  .wave1 {
+    bottom: -20px;
+  }
+
+  .wave2 {
+    bottom: 10px;
+  }
+
+  .wave3 {
+    bottom: 40px;
+  }
+
+  .wave4 {
+    bottom: 60px;
+  }
+
+  .mount1 {
+    background-size: auto 80%;
+    height: 80px;
+    bottom: 120px;
+  }
+
+  .mount2 {
+    background-size: auto 80%;
+    height: 120px;
+    bottom: 130px;
+  }
+
+  .clouds {
+    top: 25px;
+    height: 60px;
+    background-size: auto 100%;
+  }
+}
+@media screen and (max-height: 320px) {
+  .rotate {
+    position: fixed;
+    z-index: 99999;
+    background-color: #28DAD4;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .rotate:before {
+    display: block;
+    content: " ";
+    height: 40%;
+  }
+}
+
+.main-content {
+	width: 80%;
+	margin: 1em auto;
+	padding: 1.5em;
+	margin-top: 1.5em;
+	z-index: 1100;
+	position: relative;
+}
+
+.main-content div {
+	width: 80%;
+	margin: 1em auto;
+	background-color: #f5f5f590;
+	border-radius: 2em;
+	padding: 1.5em;
+	margin-top: 1.5em;
+}
+.main-content h1,
+.main-content h3 {
+	font-family: 'Cherry Swash', serif;
+	font-size: 2.7em;
+	
+}
+.main-content h3 {
+	font-size: 1.3em;
+	
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    border: 0;
+}
+
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.embed-responsive-16by9::before {
+    padding-top: 56.25%;
+}
+.embed-responsive::before {
+    display: block;
+    content: "";
+}
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+</style>
+  </head>
+  <body>
+    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+      <div class="container">
+        <span class="skiplink-text">Skip to main content</span>
+      </div>
+    </a>
+
+
+
+  <div class="container">
+
+<div class="main-content">
+	<div class="primary-info">
+		<h1>ZoZoQueen8000</h1>
+		<p>A brief description of my page</p>
+	</div>
+	<div class="secondary-info">
+		<h3>AeSthEtic BloxBurg</h3>
+		<p>Check out my Bloxburggg build videos on my youtube channel at <a href="https://www.youtube.com/channel/UC_xeE4-2BM7utf1-FAxfuBQ/featured">iiZXE</a>.</p>
+		
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/__ZpmaiT1iA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		
+		<p>Like and subscribe, thanks!</p>
+	</div>
+</div>
+
+
+
+      <div class="small-glows"></div>
+
+      <div class="glow"><div class="sun"></div></div>
+
+      <div class="waves">
+          <div class="top_wave"></div>
+          <div class="wave1"></div>
+          <div class="wave2"></div>
+          <div class="wave3"></div>
+          <div class="wave4"></div>
+      </div>
+
+      <div class="mounts">
+          <div class="mount1"></div>
+          <div class="mount2"></div>
+      </div>
+
+      <div class="clouds"></div>
+
+      <div class="noise"></div>
+
+  </div>
+  <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+  <script>
+	  $(document).ready(function(){
+  
+	          generateSmallGlows(20);
+	          const speed = 15; // uses it's local speed
+
+	          // animates the small glows in a circular motion
+	          $('.small-glow').each(function(){
+	              let speedDelta = Math.floor(Math.random()*8);
+	              let radius = Math.floor(Math.random()*20)+20;
+	              TweenMax.to($(this), speed+speedDelta, {rotation: 360, transformOrigin: "-"+radius+"px -"+radius+"px", repeat: -1, ease: Power0.easeNone});
+	          })
+
+	          var wavet = TweenMax.to('.top_wave', 0.6, {backgroundPositionX: '-=54px', repeat: -1, ease: Power0.easeNone});
+	          var wave1 = TweenMax.to('.wave1', 0.7, {backgroundPositionX: '-=54px', repeat: -1, ease: Power0.easeNone});
+	          var wave2 = TweenMax.to('.wave2', 0.75, {backgroundPositionX: '-=54px', repeat: -1, ease: Power0.easeNone});
+	          var wave3 = TweenMax.to('.wave3', 0.75, {backgroundPositionX: '-=54px', repeat: -1, ease: Power0.easeNone});
+	          var wave4 = TweenMax.to('.wave4', 0.75, {backgroundPositionX: '-=54px', repeat: -1, ease: Power0.easeNone});
+
+	          var mount1 = TweenMax.to('.mount1', 120, {backgroundPositionX: '-=1760px', repeat: -1, ease: Power0.easeNone});
+	          var mount2 = TweenMax.to('.mount2', 150, {backgroundPositionX: '-=1782px', repeat: -1, ease: Power0.easeNone});
+
+	          var clouds = TweenMax.to('.clouds', 45, {backgroundPositionX: '-=1001px', repeat: -1, ease: Power0.easeNone});  
+	  })
+
+	  function generateSmallGlows(number) {
+	      var h = $(window).height();
+	      var w = $(window).width();
+
+	      for(var i = 0; i < number; i++) {
+	          var left = Math.floor(Math.random()*w);
+	          var top = Math.floor(Math.random()*(h/2));
+	          var size = Math.floor(Math.random()*8) + 4;
+	          $('.small-glows').prepend('<div class="small-glow"></div>');
+	          let noise = $('.small-glows .small-glow').first();
+	          noise.css({left: left, top: top, height: size, width: size});
+	      }
+	  }
+  </script>
+  </body>
+</html>
+
+
