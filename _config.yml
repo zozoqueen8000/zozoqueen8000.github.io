@@ -1,0 +1,24 @@
+# Site wide configuration
+
+title: ZoZoQueen8000’s home pagee
+locale: en_CA
+logo: # filename of a logo image that has been placed into your images directory
+
+# Enter the following platform usernames if you would like for them to appear on your site.
+owner:
+  name: ZoZoQueen8000
+  avatar: bio-photo.jpg
+  bio: "This is a sample website."
+  email: zoe.isara@me.com
+  # Do not include the @ symbol in your Twitter username
+  twitter: #username
+  linkedin: #username
+  github: zozoqueen8000
+  orcid: # ID Number (ex. 0000-0000-0000-0000)
+  researchgate: #username
+  mendeley: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    scholar: #id
